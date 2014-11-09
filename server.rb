@@ -41,10 +41,6 @@ class Server
 				end
 			end
 		}
-	end
+end
 	
-
-
-server = Server.new(3000, "localhost")
-server.run
-end_of_input
+Server.new(3000, "localhost")
